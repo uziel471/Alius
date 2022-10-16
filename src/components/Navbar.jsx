@@ -34,11 +34,11 @@ function Navbar(){
           <li className="p-4 border-b border-gray-600">Servicios</li>
           <li className="p-4 border-b border-gray-600">Contacto</li>
           <li className="p-4 border-b border-gray-600">Blog</li>
-
-          <li className="p-4 border-b border-gray-600"><BsLinkedin size="20" className="text-white"/>Linked</li>
-          <li className="p-4 border-b border-gray-600"><BsInstagram size="20" className="text-white"/> Instagram</li>
-          <li className="p-4 border-b border-gray-600"><BsFacebook size="20" className="text-white"/>Facebook</li>
-          <li className="p-4"><BsWhatsapp size="20" className="text-white" />Whatsapp</li>
+            
+          <li className="p-4 border-b border-gray-600"><div className="flex"><BsLinkedin size="20" className="text-white"/>&nbsp; Linked</div></li>
+          <li className="p-4 border-b border-gray-600"><div className="flex"><BsInstagram size="20" className="text-white"/>&nbsp; Instagram</div></li>
+          <li className="p-4 border-b border-gray-600"><div className="flex"><BsFacebook size="20" className="text-white"/>&nbsp; Facebook</div></li>
+          <li className="p-4"><div className="flex"><BsWhatsapp size="20" className="text-white" />&nbsp; Whatsapp</div></li>
         </ul>
       </div>
     </div>

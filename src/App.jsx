@@ -4,6 +4,7 @@ import Body from './components/Body';
 import Navbar from './components/Navbar';
 import Are from './components/Are';
 import Services from './components/Services';
+import FrequentQuestions from './components/FrequentQuestions';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Body />
       <Are />
       <Services />
+      <FrequentQuestions />
+      {/* Body end */}
       {/* Footer */}
       <Footer />
     </div>
