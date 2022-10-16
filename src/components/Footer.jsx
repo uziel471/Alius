@@ -19,14 +19,12 @@ function Footer(){
           </div>
         </a>
         <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2">
-          <div>
-            <div className="flex justify-center items-center">
-              <MdLocationPin className="text-white"/><a href="https://google.com" className="mb-0 text-sm font-semibold text-gray-900 dark:text-white">Via Corporativo Tijuana, Zona Rio.</a>
-            </div>
+          <div className="flex">
+            <MdLocationPin className="text-white"/><a href="https://google.com" className="mb-0 text-sm font-semibold text-gray-900 dark:text-white">&nbsp;Via Corporativo Tijuana, Zona Rio.</a>
           </div>
-          <div>
-             <a href="https://google.com" className="mb-2 text-sm font-semibold text-gray-900 dark:text-white"><HiOutlineMail/>Hola@3312agency.com</a><br/>
-             <a href="https://google.com" className="mb-2 text-sm font-semibold text-gray-900 dark:text-white"><BsTelephoneFill/>(664) 539 7520</a>
+          <div className="text-white">
+            <div className="flex"><HiOutlineMail/><a href="https://google.com" className="mb-2 text-sm font-semibold text-gray-900 dark:text-white">&nbsp;Hola@3312agency.com</a></div>
+            <div className="flex"><BsTelephoneFill/><a href="https://google.com" className="mb-2 text-sm font-semibold text-gray-900 dark:text-white">&nbsp;(664) 539 7520</a></div>
           </div>
         </div>
       </div>

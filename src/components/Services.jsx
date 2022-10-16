@@ -25,7 +25,7 @@ function Services(){
     },
   ];
   return (
-    <div className="w-full bg-white py-16 px-4 justify-center items-center">
+    <div className="w-full bg-gray-200 py-16 px-4 justify-center items-center">
       <div className="w-full max-w-6xl mx-auto mb-[20px]">
         <h1 className="text-3xl">Services</h1>
         <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
