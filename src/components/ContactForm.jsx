@@ -45,7 +45,7 @@ function ContactForm(){
             )}
           />
           {errors.telefono?.type === 'required' && <span className="text-red-500">Este campo es requerido</span>}
-          {errors.telefono?.type !== 'required' && <span className="text-red-500">El telefono debe de tener 10 numero</span>}
+          {['minLength', 'maxLength'].includes(errors.telefono?.type) && <span className="text-red-500">El telefono debe tener 10 digitos</span>}
         </div>
         <div className="flex flex-col py-2">
           <label>
