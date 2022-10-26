@@ -1,22 +1,16 @@
+import Logo from "../assets/LogoBody.png";
+
 function Body(){
   return(
-    <div className="h-auto justify-center items-center bg-slate">
+    <div className="h-auto justify-center items-center bg-[#ffffff]">
       <div>
-        <div className="flex justify-center items-center  mb-10 mt-10">
+        <div className="flex justify-center items-center  mb-0 mt-10">
           <div className="flex items-center">
-            <img src="logo192.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
-            <div>
-              <span className="self-center text-5xl font-semibold whitespace-nowrap dark:text-gray-900">
-                ALIUS
-              </span> <br/>
-              <span className="self-center text-sm whitespace-nowrap dark:text-gray-900">
-                Grupo Consultor en Comercio Exterior
-              </span>
-            </div>
+            <img src={Logo} className="mr-3" alt="Logo"  width={500} height={500} />
           </div>
         </div>
         <div className="flex justify-center items-center mb-10">
-          <span className="self-center text-1xl">Más de 10 años de experiencia aumentando la competitividad aduanera de nuestros clientes</span>
+          <span className="self-center text-2xl text-center ">Más de 10 años de experiencia aumentando la competitividad aduanera de nuestros clientes</span>
         </div>
       </div>
       {/* Section 1 */}

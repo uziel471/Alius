@@ -23,21 +23,23 @@ function Services(){
       img: Logo,
       title: 'Diseño de estrategias y vinculación con autoridades en materia de comercio exterior'
     },
-  ];
+  ]; // skew-y-3
   return (
-    <div className="w-full bg-gray-200 py-16 px-4 justify-center items-center">
-      <div className="w-full max-w-6xl mx-auto mb-[20px]">
-        <h1 className="text-3xl">Services</h1>
-        <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
-      </div>
-      <div className="max-w-[1024px] mx-auto grid md:grid-cols-3 sm:grid-cols-2 flex justify-center items-center text-xl">
-        {services.map(({ img, title}) => (
-          <ServiceChildren
-            img={img}
-            title={title}
-            key={title}
-          />
-        ))}
+    <div className="w-full bg-gray-200 py-16">
+      <div className="m-8">
+        <div className="w-full max-w-6xl mx-auto mb-[40px]">
+          <a href="/" name="Servicios" className="block"><h1 className="text-3xl">Services</h1></a>
+          <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
+        </div>
+        <div className="w-full grid justify-items-center md:grid-cols-3 sm:grid-cols-2 text-xl">
+          {services.map(({ img, title}) => (
+            <ServiceChildren
+              img={img}
+              title={title}
+              key={title}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
