@@ -5,10 +5,11 @@ import Navbar from './components/Navbar';
 import Are from './components/Are';
 import Services from './components/Services';
 import FrequentQuestions from './components/FrequentQuestions';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-auto overflow-x-hidden">
       {/* Header */}
       <Navbar />
       {/* Header */}
@@ -18,6 +19,7 @@ function App() {
       <Are />
       <Services />
       <FrequentQuestions />
+      <ContactUs />
       {/* Body end */}
       {/* Footer */}
       <Footer />

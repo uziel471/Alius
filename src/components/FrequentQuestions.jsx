@@ -35,21 +35,21 @@ function FrequentQuestions(){
   ];
 
   return(
-    <div className="w-full bg-white py-16 px-4 justify-center items-center">
+    <div className="w-full py-16 justify-center items-center">
       <div className="w-full max-w-6xl mx-auto mb-[20px]">
         <h1 className="text-3xl">Preguntas frecuentes</h1>
         <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[275px]"></div>
       </div>
       <div className="max-w-[1150px] mx-auto justify-center items-center text-xl ">
-      {questions.map(({ question, response, color, bg}) => (
-        <Question
-          question={question}
-          response={response}
-          color={color}
-          bg={bg}
-          key={question}
-        />
-      ))}
+        {questions.map(({ question, response, color, bg }) => (
+          <Question
+            question={question}
+            response={response}
+            color={color}
+            bg={bg}
+            key={question}
+          />
+        ))}
       </div>
     </div>
   )

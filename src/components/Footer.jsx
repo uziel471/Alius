@@ -2,21 +2,14 @@ import React from "react";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
+import AliusLogo from "../assets/ALIUS_LOGO.png";
 
 function Footer(){
   return(
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 mt-auto">
+    <footer className="p-4 bg-white sm:p-6 dark:bg-[#0b233f] mt-auto">
       <div className="md:flex md:justify-between">
         <a href="https://google.com" className="flex items-center">
-          <img src="logo192.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
-          <div>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
-              ALIUS
-            </span> <br/>
-            <span className="self-center text-sm whitespace-nowrap dark:text-white">
-              Grupo Consultor en Comercio Exterior
-            </span>
-          </div>
+          <img src={AliusLogo} className="mr-3" alt="Logo" width={230} height={230} />
         </a>
         <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2">
           <div className="flex">
