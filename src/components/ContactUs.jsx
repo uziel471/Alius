@@ -11,11 +11,9 @@ function ContactUs(){
           </div>
         </div>
         <div className="text-white bg-gradient-to-tr from-[#000000] to-[#0b233f] z-1">
-          <div className="w-full mx auto text-center flex flex-col justify-center bg-cover bg-center">
-            <img src={homeImage} className="w-full h-full object mix-blend-overlay" alt="Home Page" />
-            <h1 className="text-3xl">Oficinas</h1>
-            <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
-          </div>
+          <img src={homeImage} className="w-full h-full object mix-blend-overlay" alt="Home Page" />
+          <h1 className="text-3xl">Oficinas</h1>
+          <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
         </div>
       </div>
     </div>
