@@ -1,4 +1,5 @@
 import Question from "./Question";
+import Divider from "./Divider";
 
 function FrequentQuestions(){
   const questions = [
@@ -38,7 +39,7 @@ function FrequentQuestions(){
     <div className="w-full py-16 justify-center items-center">
       <div className="w-full max-w-6xl mx-auto mb-[20px]">
         <h1 className="text-3xl">Preguntas frecuentes</h1>
-        <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[275px]"></div>
+        <Divider styles="w-[275px]"/>
       </div>
       <div className="max-w-[1150px] mx-auto justify-center items-center text-xl ">
         {questions.map(({ question, response, color, bg }) => (

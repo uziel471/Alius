@@ -1,6 +1,6 @@
 import homeImage from "../assets/homeImage.jpeg";
 import ContactForm from "./ContactForm";
-
+import Offices from "./Offices";
 function ContactUs(){
   return(
     <div className="w-full">
@@ -11,9 +11,10 @@ function ContactUs(){
           </div>
         </div>
         <div className="text-white bg-gradient-to-tr from-[#000000] to-[#0b233f] z-1">
-          <img src={homeImage} className="w-full h-full object mix-blend-overlay" alt="Home Page" />
-          <h1 className="text-3xl">Oficinas</h1>
-          <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
+        <div className="w-full max-w-6xl">
+        <img src={homeImage} className="bg-left-top md:w-[50%] md:h-[600px] w-full h-[500px] object-cover absolute mix-blend-overlay" alt="Home Page" />
+        </div>
+        <Offices />
         </div>
       </div>
     </div>
