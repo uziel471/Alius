@@ -6,7 +6,7 @@ function FrequentQuestions(){
       question: "Pregunta 1",
       response: "Do tempor sint velit ut adipiscing deserunt anim magna culpa esse. Dolore duis est proident non elit fugiat aliqua in consequat cupidatat occaecat est. Eiusmod adipiscing enim magna anim et in commodo proident magna velit ullamco aliquip exercitation dolore sed lorem cillum qui in. Ut commodo veniam nostrud excepteur aliqua adipiscing deserunt est ipsum nostrud aliquip dolor ullamco fugiat sed anim lorem labore duis. Dolor tempor eiusmod tempor duis irure duis sunt pariatur ea nisi mollit labore aliquip irure cupidatat incididunt.",
       color: "white",
-      bg: 'black'
+      bg: '[#0b233f]'
     },
     {
       question: "Pregunta 2",
@@ -18,7 +18,7 @@ function FrequentQuestions(){
       question: "Pregunta 3",
       response: "Do tempor sint velit ut adipiscing deserunt anim magna culpa esse. Dolore duis est proident non elit fugiat aliqua in consequat cupidatat occaecat est. Eiusmod adipiscing enim magna anim et in commodo proident magna velit ullamco aliquip exercitation dolore sed lorem cillum qui in. Ut commodo veniam nostrud excepteur aliqua adipiscing deserunt est ipsum nostrud aliquip dolor ullamco fugiat sed anim lorem labore duis. Dolor tempor eiusmod tempor duis irure duis sunt pariatur ea nisi mollit labore aliquip irure cupidatat incididunt.",
       color: "white",
-      bg: 'black'
+      bg: '[#0b233f]'
     },
     {
       question: "Pregunta 4",
@@ -30,7 +30,7 @@ function FrequentQuestions(){
       question: "Pregunta 5",
       response: "Do tempor sint velit ut adipiscing deserunt anim magna culpa esse. Dolore duis est proident non elit fugiat aliqua in consequat cupidatat occaecat est. Eiusmod adipiscing enim magna anim et in commodo proident magna velit ullamco aliquip exercitation dolore sed lorem cillum qui in. Ut commodo veniam nostrud excepteur aliqua adipiscing deserunt est ipsum nostrud aliquip dolor ullamco fugiat sed anim lorem labore duis. Dolor tempor eiusmod tempor duis irure duis sunt pariatur ea nisi mollit labore aliquip irure cupidatat incididunt.",
       color: "white",
-      bg: 'black'
+      bg: '[#0b233f]'
     },
   ];
 
