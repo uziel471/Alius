@@ -60,7 +60,7 @@ function ContactForm(){
           />
           {errors.mensaje && <span className="text-red-500">Este campo es requerido</span>}
         </div>
-        <input type="hidden" name="_next" value="http://localhost:3000/"/>
+        <input type="hidden" name="_next" value="https://alius-dvvf1i3v1-uziel471.vercel.app/"/>
         <input type="hidden" name="_captcha" value="false" />
         <div className="flex justify-end text-white">
           <button type="submit" className="w-[70px] my-5 py-2 bg-[#0b233f] shadow-lg shadow-[#0b233f/20] hover:shadow-[#0b233f/10] font-semibold rounded-lg">Enviar</button>
