@@ -1,4 +1,5 @@
 import homeImage from "../assets/homeImage.jpeg";
+import Divider from "./Divider";
 
 function Are(){
   return (
@@ -9,7 +10,7 @@ function Are(){
       <div className="max-w-6xl flex flex-col justify-center items-center h-[500px] w-full">
         <div className="flex flex-col justify-start md:w-[45%] sm:w-[10%]">
           <h1 className="text-3xl">Somos</h1>
-          <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[90px] mb-[15px]"></div>
+          <Divider styles="w-[91px] mb-[24px]" />
         </div>
         <p className="max-w-[500px] md:text-xl sm:text-xs">
           Empresa de consultoria de comercio exterior, especializados en empresas, con el objectivo de elevar la competitividad aduanera de nuestros clientes por medio de nuestra metodologia y amplia experiencia.

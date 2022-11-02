@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '../assets/logo512.png';
 import ServiceChildren from './ServiceChildren';
+import Divider from './Divider';
+
 function Services(){
   const services = [
     {
@@ -29,7 +31,7 @@ function Services(){
       <div className="m-8">
         <div className="w-full max-w-6xl mx-auto mb-[40px]">
           <a href="/" name="Servicios" className="block"><h1 className="text-3xl">Services</h1></a>
-          <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px]"></div>
+          <Divider styles="w-[115px]" />
         </div>
         <div className="w-full grid justify-items-center md:grid-cols-3 sm:grid-cols-2 text-xl">
           {services.map(({ img, title}) => (
