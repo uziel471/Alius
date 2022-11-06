@@ -4,6 +4,7 @@ import Offices from "./Offices";
 function ContactUs(){
   return(
     <div className="w-full">
+      <a href="#" name="Contacto" className="block"></a>
       <div className="flex grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2">
         <div className="bg-gray-300">
           <div className="max-w-6xl mt-[20px]">
