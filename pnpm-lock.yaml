@@ -9,6 +9,7 @@ specifiers:
   postcss-cli: ^10.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-hook-form: ^7.38.0
   react-icons: ^4.6.0
   react-scripts: 5.0.1
   tailwindcss: ^3.1.8
@@ -21,6 +22,7 @@ dependencies:
   '@testing-library/user-event': 13.5.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-hook-form: 7.39.0_react@18.2.0
   react-icons: 4.6.0_react@18.2.0
   react-scripts: 5.0.1_react@18.2.0
   web-vitals: 2.1.4
@@ -8115,6 +8117,12 @@ packages:
   /react-dev-utils/12.0.1_z55ob32rk3gskynvoaxhybdaym:
     resolution: {integrity: sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ==}
     engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=2.7'
+      webpack: '>=4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
       address: 1.2.1
@@ -8140,12 +8148,11 @@ packages:
       shell-quote: 1.7.4
       strip-ansi: 6.0.1
       text-table: 0.2.0
+      webpack: 5.74.0
     transitivePeerDependencies:
       - eslint
       - supports-color
-      - typescript
       - vue-template-compiler
-      - webpack
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -8160,6 +8167,15 @@ packages:
 
   /react-error-overlay/6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
+    dev: false
+
+  /react-hook-form/7.39.0_react@18.2.0:
+    resolution: {integrity: sha512-rekW5NMBVG0nslE2choOKThy0zxLWQeoew87yTLwb3C9F91LaXwu/dhfFL/D3hdnSMnrTG60gVN/v6rvCrSOTw==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-icons/4.6.0_react@18.2.0:

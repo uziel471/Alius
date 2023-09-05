@@ -1,13 +1,14 @@
 import { useForm } from "react-hook-form";
+import Divider from "./Divider";
 
 function ContactForm(){
 
   const { register, formState: { errors } } = useForm();
   return (
     <div className="w-full mx-auto flex flex-col justify-center">
-      <form className="max-w-[500px] w-full mx-auto p-8 px-8" action="https://formsubmit.co/uziel471@gmail.com" method="POST">
+      <form className="max-w-[500px] w-full mx-auto p-8 px-8" action="https://formsubmit.co/elizabeth.luna@aliusmx.com" method="POST">
         <h2 className="text-3xl dark:text-black text-start">Contacto</h2>
-        <div className="h-1 bg-gradient-to-r from-cyan-500 to-blue-500 w-[115px] mb-[20px]"></div>
+        <Divider styles="w-[114px] mb-[20px]" />
         <div className="flex flex-col py-2">
           <label>
             Nombre *
@@ -60,7 +61,7 @@ function ContactForm(){
           />
           {errors.mensaje && <span className="text-red-500">Este campo es requerido</span>}
         </div>
-        <input type="hidden" name="_next" value="https://alius-dvvf1i3v1-uziel471.vercel.app/"/>
+        <input type="hidden" name="_next" value="https://aliusmx.com/"/>
         <input type="hidden" name="_captcha" value="false" />
         <div className="flex justify-end text-white">
           <button type="submit" className="w-[70px] my-5 py-2 bg-[#0b233f] shadow-lg shadow-[#0b233f/20] hover:shadow-[#0b233f/10] font-semibold rounded-lg">Enviar</button>
