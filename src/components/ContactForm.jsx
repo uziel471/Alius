@@ -6,7 +6,7 @@ function ContactForm(){
   const { register, formState: { errors } } = useForm();
   return (
     <div className="w-full mx-auto flex flex-col justify-center">
-      <form className="max-w-[500px] w-full mx-auto p-8 px-8" action="https://formsubmit.co/elizabeth.luna@aliusmx.com" method="POST">
+      <form className="max-w-[500px] w-full mx-auto p-8 px-8" action="https://formsubmit.co/elyluna80@gmail.com" method="POST">
         <h2 className="text-3xl dark:text-black text-start">Contacto</h2>
         <Divider styles="w-[114px] mb-[20px]" />
         <div className="flex flex-col py-2">
