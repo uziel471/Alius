@@ -32,7 +32,7 @@ function Services(){
       <div className="w-full bg-gray-200 py-16">
         <div className="m-8">
           <div className="w-full max-w-6xl mx-auto mb-[40px]">
-            <h1 className="text-3xl">Services</h1>
+            <h1 className="text-3xl">Servicios</h1>
             <Divider styles="w-[115px]" />
           </div>
           <div className="w-full grid justify-items-center md:grid-cols-3 sm:grid-cols-2 text-xl">
